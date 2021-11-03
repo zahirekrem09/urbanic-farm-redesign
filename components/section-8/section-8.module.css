@@ -1,0 +1,95 @@
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.testimonials p{
+    color: #6EC558;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card{
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #EBEBEB;
+    border-radius: 32px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #6EC558;
+    cursor:pointer;
+    border-radius: 7px;
+    margin: 0 10px;
+}
+
+.icon:hover{
+    background:#6EC558 ;
+    color:#eaeaea ;
+}
+
+.mainContainer{
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+}
+
+.avatar{
+    padding: 30px;
+    height: 60px;
+    background: #6EC558;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.testimonialsHeader{
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: space-between;
+}
+
+
+
+
+
+.content{
+    display: flex;
+    margin: 30px 20px 0 30px;
+}
+
+.Maincontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.heart{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart span{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

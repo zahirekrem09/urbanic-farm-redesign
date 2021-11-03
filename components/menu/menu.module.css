@@ -1,0 +1,48 @@
+.mainContainer{
+    display: flex;
+}
+.items {
+    color: #fafafa;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 7px 0 7px;
+}
+
+.containerFirst{
+    display: flex;
+   padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSecond{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pocketButton{
+    background: #EF6394;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.addHubButton{
+    font-weight: normal;
+    font-size: 12px;
+    background: #42CE73;
+    border-radius: 31px;
+    color: #fafafa;
+    border: none;
+    width: 100px;
+    height: 25px;
+    margin-right: 40px;
+}
+

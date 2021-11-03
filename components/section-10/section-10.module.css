@@ -1,0 +1,51 @@
+.mainContainer{
+    width: 100%;
+    height: 400px;
+    background: #252C43;
+    padding: 50px 150px 0 150px ;
+}
+
+.logo{
+    padding: 30px;
+}
+
+.url{
+    position:relative;
+}
+
+.url p{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.links{
+    display: flex;
+    color: #FFFFFF;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.firstlinks{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstlinks div{
+    padding-bottom: 20px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia div img{
+    padding: 5px;
+    cursor: pointer;
+}
+
+
