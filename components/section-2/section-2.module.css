@@ -43,7 +43,7 @@
 .contentText{
     display: flex;
     font-size: 24px;
-    width: 700px;
+    max-width: 700px;
     line-height: 42px;
     color: #252C43;
 }
@@ -52,4 +52,27 @@
     color: #6EC558;
     font-weight: bold;
     font-style: oblique;
+}
+
+
+@media only screen and (max-width: 1000px) {
+.rightSvg, .leftSvg{
+    display: none;
+    visibility: hidden
+}
+
+.middleCOntainer{
+    margin-left: 0;
+    padding-left: 0;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: auto;
+    padding: 3rem
+}
+
+
 }

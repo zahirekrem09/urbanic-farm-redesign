@@ -31,7 +31,7 @@ export default function Section1() {
 const Items = ({ icon, text }) => {
   return (
     <div className={style.sectionItems}>
-      <div style={{ marginRight: "10px" }}>{icon}</div>
+      <div>{icon}</div>
       <div style={{ fontSize: "12px" }}>{text}</div>
     </div>
   );

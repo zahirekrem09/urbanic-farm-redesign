@@ -13,7 +13,7 @@ import Section10 from "../components/section-10";
 export default function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Section1 />
       <Section2 />
       <Section3 />
@@ -21,9 +21,9 @@ export default function Home() {
       <Section5 />
       <Section6 />
       <Section7 />
-      <Section8 />
+      {/* <Section8 /> */}
       <Section9 />
-      <Section10 />
+      {/* <Section10 /> */}
     </div>
   );
 }

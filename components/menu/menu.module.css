@@ -1,5 +1,9 @@
 .mainContainer{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap
+
 }
 .items {
     color: #fafafa;
@@ -10,9 +14,12 @@
 
 .containerFirst{
     display: flex;
-   padding-top: 30px;
+    padding-top: 30px;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-shrink: 1
 }
 
 .containerSecond{
@@ -21,6 +28,7 @@
     margin-left: 30px;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .pocketButton{

@@ -9,9 +9,9 @@ export default function Section2() {
       <div className={style.leftSvg}>
         <LeftSVG />
       </div>
-      <div style={{ display: "flex" }}>
-        <MiddleComponent />
-      </div>
+
+      <MiddleComponent />
+
       <div className={style.rightSvg}>
         <img className={style.image} src="/right1.png" alt="" />
       </div>

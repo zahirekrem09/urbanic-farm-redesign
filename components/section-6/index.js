@@ -7,7 +7,7 @@ import GetInAnHour from "../icons/section-6/get-in-an-hour";
 
 export default function Section6() {
   return (
-    <div>
+    <div className={style.main}>
       <SVGComponent
         style={{
           display: "flex",
@@ -90,7 +90,7 @@ const GreyCircle = ({ icon, title, des }) => {
       <p
         style={{
           fontSize: "12px",
-          width: "300px",
+          width: "200px",
           textAlign: "center",
           justifyContent: "center",
           alignItems: "center",

@@ -30,6 +30,7 @@ create a better society"
         />
       </div>
       <div className={style.rightImage}>
+        <img src="/section-9.png" alt="/section-9.png" />
         <button className={style.gofunderButton}>GO WEFUNDER</button>
       </div>
     </div>

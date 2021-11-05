@@ -6,6 +6,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #6EC558;
+    padding: 1rem;
     padding-bottom:40px ;
 }
 
@@ -15,27 +16,31 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-
-
+    padding: 1rem;
 }
 
 .description p {
     color: #252C43;
     font-size: 16px;
     line-height:30px;
+    
 }
 
 .svgGroups{
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
 }
 
 .svgGroups img{
     width: 150px;
     height: 150px;
-    margin-right: 20px;
+    
 }
+
 
 .btn{
     display: flex;
@@ -61,4 +66,13 @@
     padding: 10px 25px;
     margin: 100px 10px;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .svgGroups img{
+    width: 220px;
+    height: 220px;
+    
+}
 }

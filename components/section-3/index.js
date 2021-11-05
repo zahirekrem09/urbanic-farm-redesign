@@ -17,10 +17,9 @@ export default function Section3() {
           <SecondSVG />
           <p
             style={{
-              width: "450px",
-              paddingTop: "25px",
+              maxWidth: "450px",
               textAlign: "center",
-              paddingBottom: "40px",
+              paddingBottom: "20px",
             }}
           >
             Get your weekly grocery directly <br /> from producers delivered to

@@ -1,6 +1,6 @@
 .mainContainer{
     width: 100%;
-    height: 850px;
+    min-height: 850px;
     background-color: #F4F5E9;
     background-image: url("/bottom.png");
     background-repeat: no-repeat;
@@ -15,17 +15,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
     color: #6EC558;
     font-weight: 500;
 }
 
 .svgGroup{
-    padding-top: 100px;
-   justify-content: center;
-    display: grid;
+    /* padding-top: 80px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    gap:2.5rem;
+    flex-wrap: wrap
+    /* display: grid;
     grid-template-columns: 250px 250px 250px ;
-    grid-gap: 150px;
+    grid-gap: 150px; */
 
 }
 
@@ -61,4 +66,12 @@
     padding: 10px 25px;
     margin: 10px 10px 0 10px;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 880px) {
+.svgGroup{
+   flex-direction: column;
+}
+
 }

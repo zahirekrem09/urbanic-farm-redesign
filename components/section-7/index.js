@@ -5,14 +5,15 @@ export default function Section7() {
   return (
     <div className={style.mainContainer}>
       <div className={style.board}>
-        <div className={style.img} />
+        <div className={style.img}>
+          <img src="/img.png" alt="Reduce" />
+        </div>
         <div className={style.right}>
           <p
             style={{
               color: "#6EC558",
               fontSize: "24px",
               fontWeight: "bold",
-              padding: "15px 0",
             }}
           >
             Reduce waste, strengthen your community
@@ -21,8 +22,9 @@ export default function Section7() {
             style={{
               color: "#3D435A",
               fontSize: "12px",
-              padding: "15px 0",
+
               fontWeight: "medium",
+              lineHeight: "1.5",
             }}
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
